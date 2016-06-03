@@ -21,7 +21,6 @@ a {
 }
 
 a:hover {
-  color: #999;
   text-decoration: underline;
 }
 
@@ -91,12 +90,15 @@ table tr th {
 
 .header-text {
   text-transform: uppercase;
-  color: #333;
+  color: #000;
+  text-shadow: -2px -2px 1px #fff;
   font-size: 5em;
 }
 
 .header-subtext {
-  color: #781126;
+  color: #880000;
+  font-weight: bold;
+  text-shadow: -2px -2px 1px #fff;
 }
 
 header .name{
